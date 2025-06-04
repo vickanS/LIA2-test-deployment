@@ -6,6 +6,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={ <Home/>} />
+        <Route path="/x" element={<div>hello world</div>} />
       </Routes>
     </BrowserRouter>
   )
